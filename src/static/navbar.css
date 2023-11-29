@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem 4rem;
+}
+.nav-logo{
+    font-size: larger;
+    font-weight: 700;
+}
+.nav-items{
+    width: 40%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.nav-item{
+    color: white;
+    font-weight: 600;
+}

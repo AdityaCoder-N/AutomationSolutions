@@ -1,0 +1,70 @@
+.home-page{
+    background-color: #010024;
+    color: white;
+}
+
+
+.hero-section{
+
+    display: flex;
+    padding: 8rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content{
+    width: 60%;
+}
+.hero-content h1{
+    font-size: 80px;
+}
+.hero-content p{
+    margin-top: 2rem;
+    font-size: large;
+    line-height: 1.7rem;
+    width: 80%;
+}
+.hero-btn{
+    margin-top: 2rem;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    padding: 0.75rem 1rem;
+    background: linear-gradient(
+        180deg,
+        rgb(132, 251, 255) 0.89%,
+        rgb(115, 250, 255) 17.23%,
+        rgb(74, 249, 255) 42.04%,
+        rgb(56, 248, 255) 55.12%,
+        rgb(35, 248, 255) 71.54%,
+        rgb(33, 167, 188) 100%
+    );
+
+}
+
+/* blur gradients */
+
+.hero-section .ellipse:last-child {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 405px;
+    height: 471px;
+    background-color: #ffffff99;
+    border-radius: 202.5px/235.5px;
+    transform: rotate(176.62deg);
+    filter: blur(250px);
+}
+.hero-section .ellipse:first-child {
+    position: absolute;
+    left: -15%;
+    top: 20%;
+    width: 405px;
+    height: 471px;
+    background-color: #ffffff99;
+    border-radius: 202.5px/235.5px;
+    transform: rotate(176.62deg);
+    filter: blur(250px);
+}
