@@ -7,8 +7,8 @@ import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 const Home = () => {
   return (
-    <div className='home-page'>
-        <Navbar/>
+    <div>
+        
         <div className='hero-section'>
             
             <div className='ellipse'></div>

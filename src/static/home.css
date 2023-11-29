@@ -54,6 +54,7 @@
     border-radius: 202.5px/235.5px;
     transform: rotate(176.62deg);
     filter: blur(250px);
+    z-index: 1!important;
 }
 
 .hero-section .ellipse:last-child {
