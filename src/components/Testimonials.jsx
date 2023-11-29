@@ -9,7 +9,7 @@ import user3 from '../assets/user3.png'
 const Testimonials = () => {
   return (
     <div className='testimonials'>
-        <h1>What people are saying about us</h1>
+        <h1 className='font-bold'>What people are saying about us</h1>
 
         <div className="testimonials-container">
 

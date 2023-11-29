@@ -19,6 +19,7 @@
     padding: 3rem;
     border-radius: 20px;
     position: relative;
+    transition: all 0.2s ease-in-out;
 }
 .testimonial-card:hover{
     background: linear-gradient(157deg, rgba(234, 234, 234, 0) 0%, #5f5084 100%); 

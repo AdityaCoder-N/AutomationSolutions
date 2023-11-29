@@ -13,7 +13,7 @@ const ContactUs = () => {
             </div>
             <form className='contact-form'>
 
-                <h1>Reach Out to Us</h1>
+                <h1 className='font-bold'>Reach Out to Us</h1>
 
                 <input type="text" placeholder='Enter Your Name'/>
                 <input type="email" placeholder='Enter Your Email'/>

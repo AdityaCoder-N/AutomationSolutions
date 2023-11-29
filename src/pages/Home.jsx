@@ -5,15 +5,16 @@ import Navbar from '../components/Navbar'
 import OurServices from '../components/OurServices'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
+import Faq from '../components/Faq'
 const Home = () => {
   return (
-    <div>
+    <div >
         
         <div className='hero-section'>
             
             <div className='ellipse'></div>
             <div className='hero-content'>
-                <h1>
+                <h1 className='font-bold'>
                     Smart Solutions, Smarter Operations
                 </h1>
                 <p>Synthwave Technologies leads the way in providing cutting-edge Machine Learning and Artificial Intelligence solutions, transforming businesses through innovation.</p>
@@ -31,6 +32,7 @@ const Home = () => {
         <OurServices/>
         <Features/>
         <Testimonials/>
+        <Faq/>
 
     </div>
   )

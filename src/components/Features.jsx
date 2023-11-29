@@ -9,7 +9,7 @@ const Features = () => {
     <div className='features-container'>
         <div className='ellipse'></div>
         <div className='features-content'>
-            <h1>Why Choose Synthwave Technologies ?</h1>
+            <h1 className='font-bold'>Why Choose Synthwave Technologies ?</h1>
             <p>Synthwave Technologies is your go-to for cutting-edge, customized tech solutions. With expertise across industries, a commitment to quality, we deliver innovative projects tailored to your needs.</p>
             <button className='hero-btn'>Get Started</button>
         </div>

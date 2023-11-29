@@ -9,7 +9,7 @@ const OurServices = () => {
   return (
     <div className='our-services'>
         
-        <h1>Services We Offer</h1>
+        <h1 className='font-bold'>Services We Offer</h1>
         <p>Explore a spectrum of cutting-edge services tailored to elevate your business , we are dedicated to transforming your operations and driving unparalleled success.</p>
 
 
