@@ -11,42 +11,24 @@ const Footer = () => {
     <>
       <footer className="footer">
         <div className="footer-section">
-          <img src='' alt="Logo" className="footer-logo pl-8" />
-          <div className="footer-description md:w-[250px] pl-8">
+          <img src='' alt="Logo" className="footer-logo" />
+          <div className="footer-description">
           Explore the future with Synthwave Technologies, your premier destination for avant-garde, personalized tech solutions. Embark on a journey of innovation and technology tailored just for you.
           </div>
 
-          <div className="footer-item address pl-8 ">
+          <div className="footer-item address">
             <img src={pin} alt="" style={{ fill: "red" }} className="icon" />
             <div className="md:w-[250px] ">
               Address
             </div>
           </div>
-          <div className="footer-item address pl-8 ">
+          <div className="footer-item address">
             <img src={phone} alt="" className="icon" />
             <div>Number</div>
           </div>
         </div>
 
         <div className="footer-section courses">
-          <div className="section-heading">Quick Links</div>
-          <div className="footer-item-container">
-            <Link className="footer-item" to="/">
-              Home
-            </Link>
-            <Link className="footer-item" to="/services">
-              Our Services
-            </Link>
-            <Link className="footer-item" to="/about">
-              About Us
-            </Link>
-            <Link className="footer-item" to="/contact">
-              Contact Us
-            </Link>
-          </div>
-        </div>
-
-        <div className="footer-section pl-8 courses">
           <div className="section-heading">Our Services</div>
           <div className="footer-item-container ">
             
@@ -66,6 +48,26 @@ const Footer = () => {
             
           </div>
         </div>
+        
+        <div className="footer-section courses">
+          <div className="section-heading">Quick Links</div>
+          <div className="footer-item-container">
+            <Link className="footer-item" to="/">
+              Home
+            </Link>
+            <Link className="footer-item" to="/services">
+              Our Services
+            </Link>
+            <Link className="footer-item" to="/about">
+              About Us
+            </Link>
+            <Link className="footer-item" to="/contact">
+              Contact Us
+            </Link>
+          </div>
+        </div>
+
+        
 
         <div className="footer-section ">
           <div className="section-heading">Follow us on</div>

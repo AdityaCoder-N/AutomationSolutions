@@ -53,7 +53,7 @@ const Testimonials = () => {
 
                 </div>
             </div>
-            <div className='testimonial-card'>
+            <div className='testimonial-card transition-all duration-200 ease-in-out'>
                 <div className='comma'>
                     <img src={commas} alt="''" />
                 </div>

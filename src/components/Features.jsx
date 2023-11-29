@@ -19,7 +19,7 @@ const Features = () => {
                     <img src={star} alt="" />
                 </div>
                 <div className='list-item-content'>
-                    <h3>Expertise</h3>
+                    <h3 className='font-bold'>Expertise</h3>
                     <p>Our team of seasoned developers and data scientists ensures top-tier solutions.</p>
                 </div>
             </div>
@@ -28,16 +28,16 @@ const Features = () => {
                     <img src={shield} alt="" />
                 </div>
                 <div className='list-item-content'>
-                    <h3>Success Stories</h3>
+                    <h3 className='font-bold'>Success Stories</h3>
                     <p>Read testimonials, showcasing real-world examples of our impact.</p>
                 </div>
             </div>
-            <div className='feature-list-item'>
+            <div className='feature-list-item transition-all duration-200 ease-in-out'>
                 <div className='list-item-img'>
                     <img src={message} alt="" />
                 </div>
                 <div className='list-item-content'>
-                    <h3>Innovation</h3>
+                    <h3 className='font-bold'>Innovation</h3>
                     <p>Stay ahead with our commitment to the latest advancements in ML/AI.</p>
                 </div>
             </div>

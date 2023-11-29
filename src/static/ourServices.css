@@ -47,3 +47,13 @@
     transform: translateX(-50%);
     
 }
+
+.purp-gradient{
+    background: linear-gradient(284deg, rgba(101, 90, 223, 0.47) 0%, rgba(145, 145, 220, 0.47) 45%, rgba(49, 42, 100, 0.47) 100%); 
+}
+.teal-gradient{
+    background: linear-gradient(284deg, rgba(23, 133, 115, 0.47) 0%, rgba(35, 200, 172, 0.47) 45%, rgba(190, 245, 236, 0.47) 100%);
+}
+.gold-gradient{
+    background: linear-gradient(284deg, rgba(241, 233, 188, 0.47) 0%, rgba(220, 219, 217, 0.47) 45%, rgba(224, 223, 222, 0.47) 100%);
+}
