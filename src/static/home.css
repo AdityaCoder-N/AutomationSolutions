@@ -46,6 +46,16 @@
 
 /* blur gradients */
 
+.ellipse{
+    position: absolute;
+    width: 405px;
+    height: 471px;
+    background-color: #ffffff99;
+    border-radius: 202.5px/235.5px;
+    transform: rotate(176.62deg);
+    filter: blur(250px);
+}
+
 .hero-section .ellipse:last-child {
     position: absolute;
     right: 0%;

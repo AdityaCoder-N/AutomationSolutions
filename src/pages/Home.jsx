@@ -4,6 +4,7 @@ import heroImage from '../assets/Other 07.png'
 import Navbar from '../components/Navbar'
 import OurServices from '../components/OurServices'
 import Features from '../components/Features'
+import Testimonials from '../components/Testimonials'
 const Home = () => {
   return (
     <div className='home-page'>
@@ -29,6 +30,7 @@ const Home = () => {
 
         <OurServices/>
         <Features/>
+        <Testimonials/>
 
     </div>
   )
