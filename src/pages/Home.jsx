@@ -34,6 +34,17 @@ const Home = () => {
         <Testimonials/>
         <Faq/>
 
+
+        <div className='hover rounded-xl w-2/3 ml-[50%] -translate-x-1/2 p-8 flex items-center justify-around mb-20'>
+            <div>
+                <h1 className='font-bold text-4xl'>Let's try our services Now !</h1>
+                <p className='mt-2 w-2/3'>Everything you need to automate and grow your business anywhere on the planet</p>
+            </div>
+            <div>
+                <button className='hero-btn text-black' >Get Started</button>
+            </div>
+        </div>
+
     </div>
   )
 }

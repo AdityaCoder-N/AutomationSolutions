@@ -41,22 +41,19 @@
 .contact-form input{
     width: 80%;
     margin: 0.75rem 0;
-    background-color: #ababab;
+    background-color: #e7e7e7;
     color: black;
     padding: 1rem 2rem;
     border-radius: 14px;
     outline: none;
     border: none;
-    &::placeholder {
-        color: black; 
-    }
     font-size: medium;
 }
 .contact-form textarea{
     width: 80%;
     height: 15vh;
     margin: 0.75rem 0;
-    background-color: #ababab;
+    background-color: #e7e7e7;
     color: black;
     padding: 1rem 2rem;
     border-radius: 14px;

@@ -35,7 +35,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="md: text-center mb-20 md:p-16    md:max-w-5xl max-w-xs mx-auto  text-white">
+    <div className="md: text-center mb-10 md:p-16    md:max-w-5xl max-w-xs mx-auto  text-white">
      <div className="lg:text-6xl md:text-4xl   text-2xl md:p-5 p-2 md:px-20 px-10 w-fit mx-auto   text-center text-white mb-5 font-bold">
      Frequently Asked Questions:
             </div>

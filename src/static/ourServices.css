@@ -57,3 +57,6 @@
 .gold-gradient{
     background: linear-gradient(284deg, rgba(241, 233, 188, 0.47) 0%, rgba(220, 219, 217, 0.47) 45%, rgba(224, 223, 222, 0.47) 100%);
 }
+.blue-gradient{
+    background: linear-gradient(284deg, rgba(40.68, 113.57, 222.91, 0.47) 0%, rgba(102.34, 159.07, 244.16, 0.47) 45%, rgba(4.90, 89.93, 255, 0.47) 100%);
+}
