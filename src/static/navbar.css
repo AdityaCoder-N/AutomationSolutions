@@ -4,7 +4,7 @@
     justify-content: space-between;
     width: 100%;
 
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     padding: 2rem 4rem;
@@ -25,4 +25,22 @@
 .nav-item{
     color: white;
     font-weight: 600;
+}
+
+@media screen and (max-width:1024px) {
+    .nav-items{
+        width: 60%;
+    }
+    .navbar{
+        padding: 2rem 1rem;
+    }
+    .nav-logo{
+        margin-left: 0.5rem;
+    }
+}
+@media screen and (max-width:640px) {
+    .nav-items{
+        width: fit-content!important;
+    }
+    
 }

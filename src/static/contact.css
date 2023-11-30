@@ -59,9 +59,6 @@
     border-radius: 14px;
     outline: none;
     border: none;
-    &::placeholder {
-        color: black; 
-    }
     font-size: medium;
     resize: none;
 }

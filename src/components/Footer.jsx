@@ -15,17 +15,6 @@ const Footer = () => {
           <div className="footer-description">
           Explore the future with Synthwave Technologies, your premier destination for avant-garde, personalized tech solutions. Embark on a journey of innovation and technology tailored just for you.
           </div>
-
-          <div className="footer-item address">
-            <img src={pin} alt="" style={{ fill: "red" }} className="icon" />
-            <div className="md:w-[250px] ">
-              Address
-            </div>
-          </div>
-          <div className="footer-item address">
-            <img src={phone} alt="" className="icon" />
-            <div>Number</div>
-          </div>
         </div>
 
         <div className="footer-section courses">

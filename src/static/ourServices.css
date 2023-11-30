@@ -60,3 +60,18 @@
 .blue-gradient{
     background: linear-gradient(284deg, rgba(40.68, 113.57, 222.91, 0.47) 0%, rgba(102.34, 159.07, 244.16, 0.47) 45%, rgba(4.90, 89.93, 255, 0.47) 100%);
 }
+
+@media screen and (max-width:1024px) {
+    .services-card-container{
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+    .our-services > p{
+        width: 80%;
+    }
+}
+@media screen and (max-width:640px) {
+    .our-services > p{
+        width: 100%;
+    }
+}
