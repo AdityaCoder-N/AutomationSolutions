@@ -29,12 +29,12 @@ const Navbar = () => {
         </div>
         {
           showMenu && (
-          <div className='fixed bg-[#7972E4] h-full w-2/3 z-20 left-0 top-0 flex flex-col justify-center items-center gap-16 transition-all duration-200 ease-in-out'>
+          <div className='fixed bg-[#7972E4] h-full w-3/4 z-20 left-0 top-0 flex flex-col justify-center items-center gap-16 transition-all duration-200 ease-in-out'>
             <Link to="/" className='nav-item'>Home</Link>
             <Link to="/services" className='nav-item'>Our Services</Link>
             <Link to="/about" className='nav-item'>About Us</Link>
             <Link to="/contact" className='nav-item'>Contact Us</Link>
-            <HiX className='text-white text-3xl cursor-pointer'/>
+            <HiX className='text-white text-3xl cursor-pointer' onClick={toggleMenu}/>
           </div>
           )
         }

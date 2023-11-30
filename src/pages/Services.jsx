@@ -67,17 +67,17 @@ const Services = () => {
 
 
   return (
-    <div className='services-page pt-28'>
+    <div className='services-page pt-4'>
       <OurServices/>
 
       {/* automation service */}
-      <div className='px-20 py-24 flex items-center w-full justify-around '>
-        <div className='w-1/3'>
+      <div className='px-10 md:px-20 py-24 block md:flex items-center w-full justify-around '>
+        <div className='w-2/3 ml-[50%] -translate-x-1/2 md:w-1/3'>
             <img src={automation} alt="" className='w-full h-full object-cover'/>
         </div>
-        <div className='w-1/2 h-full '>
+        <div className='w-full mt-10 text-center md:w-1/2 h-full '>
           <h1 className='font-bold text-5xl text-customViolet'>Automation Services</h1>
-          <p className='my-16 leading-8'>In today's highly competitive business world, automation is no longer a mere option for businesses to survive but a necessity to stay ahead of the curve. At Synthwave Technologies, we recognize the challenges businesses face in handling complex processes and achieving operational efficiency. For this reason, we provide a comprehensive range of automation solutions tailored to streamline your operations, improve productivity, and drive growth.</p>
+          <p className='my-4 mid:my-16 leading-8'>In today's highly competitive business world, automation is no longer a mere option for businesses to survive but a necessity to stay ahead of the curve. At Synthwave Technologies, we recognize the challenges businesses face in handling complex processes and achieving operational efficiency. For this reason, we provide a comprehensive range of automation solutions tailored to streamline your operations, improve productivity, and drive growth.</p>
 
           <button className='px-6 py-3 bg-customViolet text-white rounded-md border border-white'>Get Started</button>
         </div>
@@ -85,7 +85,7 @@ const Services = () => {
 
       <h1 className='text-center text-3xl font-bold'>Subsections</h1>
       {/* subsections -container  */}
-      <div className='px-24 py-16 grid grid-cols-4 gap-10 '>
+      <div className='px-4 md:px-24 py-8 md:py-16 grid md:grid-cols-2 lg:grid-cols-4 gap-10 '>
         {
           automationData.map((element)=>{
             return (
@@ -104,9 +104,9 @@ const Services = () => {
 
 
       {/* dataanalyst service */}
-      <div className='px-20 py-24 flex items-center w-full justify-around '>
+      <div className='px-10 md:px-20 py-10 md:py-24 block md:flex items-center w-full justify-around  '>
         
-        <div className='w-1/2 h-full '>
+        <div className='w-full mt-0 text-center md:w-1/2 h-full '>
           <h1 className='font-bold text-5xl text-[#178573]'>Data Analyst Services</h1>
           <p className='my-12 leading-8'>Unlock the true potential of your data with Synthwave's comprehensive data analyst services. We help you turn raw data into actionable insights for informed decision-making.
 In today's data-driven world, organizations are awash in a sea of information. However, extracting valuable insights from this vast amount of data can be a daunting task. That's where our team of experienced data analysts comes in. We provide comprehensive data analytics services that help businesses transform their data into actionable insights, driving strategic decision-making and fueling growth.</p>
@@ -114,14 +114,14 @@ In today's data-driven world, organizations are awash in a sea of information. H
           <button className='px-6 py-3 bg-[#178573] text-white rounded-md border border-white'>Get Started</button>
         </div>
 
-        <div className='w-1/3'>
+        <div className='mt-10 w-2/3 ml-[50%] -translate-x-1/2 md:w-1/3'>
             <img src={analytics} alt="" className='w-full h-full object-cover'/>
         </div>
       </div>
 
       <h1 className='text-center text-3xl font-bold'>Subsections</h1>
       {/* subsections -container  */}
-      <div className='px-24 py-16 grid grid-cols-4 gap-10 '>
+      <div className='px-4 md:px-24 py-8 md:py-16 grid md:grid-cols-2 lg:grid-cols-4 gap-10 '>
         {
           analystData.map((element)=>{
             return (
@@ -139,14 +139,14 @@ In today's data-driven world, organizations are awash in a sea of information. H
       </div>
 
       {/* ML/AI service */}
-      <div className='px-20 py-24 flex items-center w-full justify-around '>
+      <div className='px-10 md:px-20 py-8 md:py-24 block md:flex items-center w-full justify-around '>
         
-        <div className='w-4/7'>
+        <div className='mt-10 w-2/3 ml-[50%] -translate-x-1/2 md:w-4/7'>
             <img src={ai} alt="" className='w-full h-full object-cover'/>
         </div>
-        <div className='w-1/2 h-full '>
-          <h1 className='font-bold text-5xl text-white'> ML/AI-Based Services</h1>
-          <p className='my-12 leading-8'>Experience the transformational power of machine learning and artificial intelligence with Synthwave Technologies's expert services. We tailor ML/AI solutions to your specific needs.In today's rapidly evolving technological landscape, Machine Learning (ML) and Artificial Intelligence (AI) are transforming industries, optimizing processes, and driving innovation. At Synthwave Technologies, we specialize in providing cutting-edge ML/AI-based services that empower businesses to harness the power of these technologies and achieve their goals.
+        <div className='w-full mt-10 text-center md:w-1/2 h-full '>
+          <h1 className='font-bold text-5xl text-white'>ML/AI-Based Services</h1>
+          <p className='my-6 lg:my-12 leading-8'>Experience the transformational power of machine learning and artificial intelligence with Synthwave Technologies's expert services. We tailor ML/AI solutions to your specific needs.In today's rapidly evolving technological landscape, Machine Learning (ML) and Artificial Intelligence (AI) are transforming industries, optimizing processes, and driving innovation. At Synthwave Technologies, we specialize in providing cutting-edge ML/AI-based services that empower businesses to harness the power of these technologies and achieve their goals.
 Our team of experienced ML/AI engineers and data sci</p>
 
           <button className='px-6 py-3 bg-[#AD906E] text-white rounded-md border border-white'>Get Started</button>
@@ -157,7 +157,7 @@ Our team of experienced ML/AI engineers and data sci</p>
 
       <h1 className='text-center text-3xl font-bold'>Subsections</h1>
       {/* subsections -container  */}
-      <div className='px-24 py-16 grid grid-cols-4 gap-10 '>
+      <div className='px-4 md:px-24 py-8 md:py-16 grid md:grid-cols-2 lg:grid-cols-4 gap-10'>
         {
           aiData.map((element)=>{
             return (

@@ -1,5 +1,5 @@
 .contact-page{
-    padding: 8rem 2rem;
+    padding: 2rem 2rem;
     display: flex;
     justify-content: center;
 }
@@ -11,9 +11,10 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
     width: 90%;
+    
     
 }
 
@@ -72,4 +73,61 @@
     border-radius: 14px;
     border:none;
     margin-top: 1rem;
+}
+
+
+@media screen and (max-width:1200px){
+
+    .contact-us{
+        padding: 1.5rem 0;
+    }
+    .contact-img{
+        width: 40%;
+    }
+    .contact-form h1{
+        font-size: 40px;
+        margin-bottom:0;
+    }
+    .contact-form input{
+        margin: 0.5rem 0;
+        padding: 0.5rem 1rem;
+    }
+    .contact-form button{
+        padding: 0.75rem;
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width:800px){
+
+    
+    .contact-form h1{
+        font-size: 25px;
+        margin-bottom:0;
+    }
+    
+}
+@media screen and (max-width:500px){
+
+    .contact-page{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .contact-us{
+        border-radius: 12px;
+    }
+    .contact-img{
+        display: none;
+    }
+    .contact-form{
+        width: 100%;
+        
+    }
+    .contact-form h1{
+        margin-bottom: 2%;
+    }
+    .contact-form input{
+        padding: 1rem 1rem;
+    }
+    
 }
