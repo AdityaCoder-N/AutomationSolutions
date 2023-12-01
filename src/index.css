@@ -17,5 +17,7 @@ body {
   font-family: 'Inter', sans-serif;
   z-index: 5;
 }
-
+.outer-container{
+  overflow-x: hidden;
+}
 

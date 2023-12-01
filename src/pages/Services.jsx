@@ -120,7 +120,7 @@ In today's data-driven world, organizations are awash in a sea of information. H
             <img src={analytics} alt="" className='w-full h-full object-cover'/>
         </div>
         <div className='ellipse -bottom-40 -right-40'></div>
-        <div className='hidden md:ellipse -bottom-10 -left-60'></div>
+        <div className='hidden sm:block ellipse -bottom-10 -left-60'></div>
       </div>
 
       <h1 className='text-center text-3xl font-bold'>Subsections</h1>
