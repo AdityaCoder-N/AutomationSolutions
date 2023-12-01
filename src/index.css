@@ -19,5 +19,6 @@ body {
 }
 .outer-container{
   overflow-x: hidden;
+  position:relative;
 }
 
