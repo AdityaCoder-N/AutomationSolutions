@@ -67,11 +67,11 @@ const Services = () => {
 
 
   return (
-    <div className='services-page pt-0 md:pt-4'>
+    <div className='services-page pt-0 md:pt-4 relative'>
       <OurServices/>
 
       {/* automation service */}
-      <div className='px-10 md:px-20 py-24 block md:flex items-center w-full justify-around '>
+      <div className='px-10 md:px-20 py-24 block md:flex items-center w-full justify-around relative'>
         <div className='w-2/3 ml-[50%] -translate-x-1/2 md:w-1/3 md:ml-0 md:-translate-x-0'>
             <img src={automation} alt="" className='w-full h-full object-cover'/>
         </div>
@@ -81,7 +81,9 @@ const Services = () => {
 
           <button className='px-6 py-3 bg-customViolet text-white rounded-md border border-white'>Get Started</button>
         </div>
+      <div className='ellipse -bottom-40 -left-40'></div>
       </div>
+
 
       <h1 className='text-center text-3xl font-bold'>Subsections</h1>
       {/* subsections -container  */}
@@ -104,7 +106,7 @@ const Services = () => {
 
 
       {/* dataanalyst service */}
-      <div className='px-10 md:px-20 py-10 md:py-24 block md:flex items-center w-full justify-around  '>
+      <div className='px-10 md:px-20 py-10 md:py-24 block md:flex items-center w-full justify-around relative '>
         
         <div className='w-full mt-0 text-center md:w-1/2 h-full '>
           <h1 className='font-bold text-5xl text-[#178573]'>Data Analyst Services</h1>
@@ -117,6 +119,8 @@ In today's data-driven world, organizations are awash in a sea of information. H
         <div className='mt-10 w-2/3 ml-[50%] -translate-x-1/2 md:w-1/3 md:ml-0 md:-translate-x-0'>
             <img src={analytics} alt="" className='w-full h-full object-cover'/>
         </div>
+        <div className='ellipse -bottom-40 -right-40'></div>
+        <div className='hidden md:ellipse -bottom-10 -left-60'></div>
       </div>
 
       <h1 className='text-center text-3xl font-bold'>Subsections</h1>
@@ -139,7 +143,7 @@ In today's data-driven world, organizations are awash in a sea of information. H
       </div>
 
       {/* ML/AI service */}
-      <div className='px-10 md:px-20 py-8 md:py-24 block md:flex items-center w-full justify-around '>
+      <div className='px-10 md:px-20 py-8 md:py-24 block md:flex items-center w-full justify-around relative'>
         
         <div className='mt-10 w-2/3 ml-[50%] -translate-x-1/2 md:w-4/7 md:ml-0 md:-translate-x-0 md:w-1/3'>
             <img src={ai} alt="" className='w-full h-full object-cover'/>
@@ -151,7 +155,7 @@ Our team of experienced ML/AI engineers and data sci</p>
 
           <button className='px-6 py-3 bg-[#AD906E] text-white rounded-md border border-white'>Get Started</button>
         </div>
-
+        <div className='ellipse -bottom-40 -right-40'></div>
       </div>
 
 

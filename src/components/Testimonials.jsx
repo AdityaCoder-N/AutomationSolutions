@@ -75,6 +75,8 @@ const Testimonials = () => {
             </div>
 
         </div>
+
+        <div className='ellipse'></div>
     </div>
   )
 }
