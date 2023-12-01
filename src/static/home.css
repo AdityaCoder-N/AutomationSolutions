@@ -1,6 +1,13 @@
 .home-page{
     background-color: #010024;
     color: white;
+    max-width: 1800px;
+}
+.outer-container{
+    background-color: #010024;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 

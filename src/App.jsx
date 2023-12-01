@@ -11,16 +11,18 @@ function App() {
 
   return (
     <Router>
-      <div className='home-page'>
-        <Navbar/>
-        <Routes>
-            <Route index path="/" element={<Home />} />
-            <Route path="/contact" element={<ContactUs/>} />
-            <Route path="/about" element={<AboutUs/>} />
-            <Route path="/services" element={<Services/>} />
-            
-        </Routes>
-        <Footer/>
+      <div className='outer-container'>
+        <div className='home-page'>
+          <Navbar/>
+          <Routes>
+              <Route index path="/" element={<Home />} />
+              <Route path="/contact" element={<ContactUs/>} />
+              <Route path="/about" element={<AboutUs/>} />
+              <Route path="/services" element={<Services/>} />
+              
+          </Routes>
+          <Footer/>
+        </div>
       </div>
     </Router>
   )

@@ -72,7 +72,7 @@ const Services = () => {
 
       {/* automation service */}
       <div className='px-10 md:px-20 py-24 block md:flex items-center w-full justify-around '>
-        <div className='w-2/3 ml-[50%] -translate-x-1/2 md:w-1/3'>
+        <div className='w-2/3 ml-[50%] -translate-x-1/2 md:w-1/3 md:ml-0 md:-translate-x-0'>
             <img src={automation} alt="" className='w-full h-full object-cover'/>
         </div>
         <div className='w-full mt-10 text-center md:w-1/2 h-full '>
@@ -114,7 +114,7 @@ In today's data-driven world, organizations are awash in a sea of information. H
           <button className='px-6 py-3 bg-[#178573] text-white rounded-md border border-white'>Get Started</button>
         </div>
 
-        <div className='mt-10 w-2/3 ml-[50%] -translate-x-1/2 md:w-1/3'>
+        <div className='mt-10 w-2/3 ml-[50%] -translate-x-1/2 md:w-1/3 md:ml-0 md:-translate-x-0'>
             <img src={analytics} alt="" className='w-full h-full object-cover'/>
         </div>
       </div>
@@ -141,7 +141,7 @@ In today's data-driven world, organizations are awash in a sea of information. H
       {/* ML/AI service */}
       <div className='px-10 md:px-20 py-8 md:py-24 block md:flex items-center w-full justify-around '>
         
-        <div className='mt-10 w-2/3 ml-[50%] -translate-x-1/2 md:w-4/7'>
+        <div className='mt-10 w-2/3 ml-[50%] -translate-x-1/2 md:w-4/7 md:ml-0 md:-translate-x-0 md:w-1/3'>
             <img src={ai} alt="" className='w-full h-full object-cover'/>
         </div>
         <div className='w-full mt-10 text-center md:w-1/2 h-full '>
