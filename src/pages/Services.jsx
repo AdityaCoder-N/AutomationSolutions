@@ -67,7 +67,7 @@ const Services = () => {
 
 
   return (
-    <div className='services-page pt-4'>
+    <div className='services-page pt-0 md:pt-4'>
       <OurServices/>
 
       {/* automation service */}

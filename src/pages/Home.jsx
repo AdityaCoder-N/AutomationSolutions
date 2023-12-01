@@ -6,6 +6,7 @@ import OurServices from '../components/OurServices'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Faq from '../components/Faq'
+import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <div >
@@ -19,7 +20,7 @@ const Home = () => {
                 </h1>
                 <p>Synthwave Technologies leads the way in providing cutting-edge Machine Learning and Artificial Intelligence solutions, transforming businesses through innovation.</p>
 
-                <button className='hero-btn'>About Us</button>
+                <button className='hero-btn'><Link to='/about'>About Us</Link></button>
             </div>
             
             <div className='hero-image'>
@@ -41,7 +42,7 @@ const Home = () => {
                     <p className='w-full mt-2 md:w-2/3'>Everything you need to automate and grow your business anywhere on the planet</p>
                 </div>
                 <div className=''>
-                    <button className='hero-btn text-sm md:hero-btn text-black ' >Get Started</button>
+                    <button className='hero-btn text-sm md:hero-btn text-black ' ><Link to='/services'>Get Started</Link></button>
                 </div>
             </div>
 
